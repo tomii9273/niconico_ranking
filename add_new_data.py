@@ -52,8 +52,8 @@ def get_ranking_data():
 
 def get_video_html(rank, title, vid, viewcount):
     return f"""
-      {rank} 位 {viewcount:,} 再生<br />
-      <iframe width="550" height="120" src="https://ext.nicovideo.jp/thumb/{vid}" scrolling="no" style="border: solid 1px #ccc" frameborder="0"
+      <b>{rank} 位 {viewcount:,} 再生</b><br />
+      <iframe width="550" height="140" src="https://ext.nicovideo.jp/thumb/{vid}" scrolling="no" style="border: solid 1px #ccc" frameborder="0"
       ><a href="https://www.nicovideo.jp/watch/{vid}">{title}</a></iframe><br />"""
 
 
