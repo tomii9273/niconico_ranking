@@ -16,11 +16,11 @@ def get_header(date: str) -> str:
     <header>
       <h2>{date} 時点 <a href="https://www.nicovideo.jp/video_top">ニコニコ動画</a> 累計再生数ランキング</h2>
     </header>
-    <ui>
+    <ul>
       <li>毎日、日本時間の午前 6 時頃に更新</li>
       <li>検索で出てこない動画 (いわゆる再生数工作動画など) は除外</li>
       <li><a href="../index.html">他の日のランキング</a></li>
-    </ui>
+    </ul>
     <p>"""
 
 
