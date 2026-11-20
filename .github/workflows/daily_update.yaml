@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests==2.32.2
+          python -m pip install -r requirements.txt
 
       - name: Run script and push
         run: |
